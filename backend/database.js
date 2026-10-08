@@ -342,18 +342,18 @@ class Database {
     insertDefaultUsers() {
         const bcrypt = require('bcryptjs');
         const defaultUsers = [
-            { username: 'أحمد العتيبي', email: 'ahmed@example.com', password: '123456' },
-            { username: 'فاطمة الربيع', email: 'fatima@example.com', password: '123456' },
-            { username: 'خالد المطيري', email: 'khalid@example.com', password: '123456' },
-            { username: 'سارة الدوسري', email: 'sara@example.com', password: '123456' },
-            { username: 'محمد الأحمد', email: 'mohammed@example.com', password: '123456' },
-            { username: 'نورة الزهراني', email: 'nora@example.com', password: '123456' },
-            { username: 'عبدالله القحطاني', email: 'abdullah1@example.com', password: '123456' },
-            { username: 'عبدالله الغامدي', email: 'abdullah2@example.com', password: '123456' },
-            { username: 'لينا السعود', email: 'lina@example.com', password: '123456' },
-            { username: 'مشعل الحربي', email: 'mishal@example.com', password: '123456' },
-            { username: 'ريم الشمري', email: 'reem@example.com', password: '123456' },
-            { username: 'ياسر الدخيل', email: 'yasser@example.com', password: '123456' }
+            { username: 'أحمد العتيبي', email: 'ahmed@example.com', password: '' },
+            { username: 'فاطمة الربيع', email: 'fatima@example.com', password: '' },
+            { username: 'خالد المطيري', email: 'khalid@example.com', password: '' },
+            { username: 'سارة الدوسري', email: 'sara@example.com', password: '' },
+            { username: 'محمد الأحمد', email: 'mohammed@example.com', password: '' },
+            { username: 'نورة الزهراني', email: 'nora@example.com', password: '' },
+            { username: 'عبدالله القحطاني', email: 'abdullah1@example.com', password: '' },
+            { username: 'عبدالله الغامدي', email: 'abdullah2@example.com', password: '' },
+            { username: 'لينا السعود', email: 'lina@example.com', password: '' },
+            { username: 'مشعل الحربي', email: 'mishal@example.com', password: '' },
+            { username: 'ريم الشمري', email: 'reem@example.com', password: '' },
+            { username: 'ياسر الدخيل', email: 'yasser@example.com', password: '' }
         ];
 
         let completed = 0;

@@ -303,7 +303,7 @@ app.post('/api/login', async (req, res) => {
 POST /api/login
 {
     "email": "ahmed@example.com",
-    "password": "123456"
+    "password": ""
 }
 
 // 2. الخادم يرجع Token
@@ -1433,11 +1433,11 @@ POST /api/register
 {
     "username": "أحمد",
     "email": "ahmed@example.com",
-    "password": "123456"
+    "password": ""
 }
 
 // 2. الخادم يشفر كلمة المرور
-"123456" → "$2a$10$N9qo8..."
+"" → "$2a$10$N9qo8..."
 
 // 3. الخادم يحفظ في قاعدة البيانات
 INSERT INTO users (username, email, password) VALUES (...)
